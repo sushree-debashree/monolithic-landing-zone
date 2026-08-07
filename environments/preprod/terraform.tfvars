@@ -196,3 +196,4 @@ key_vaults = {
     secret_name = "admin-password"
   }
 }
+}
