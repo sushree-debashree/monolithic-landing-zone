@@ -33,4 +33,4 @@ jobs:
 
       - name: Terraform Plan
         working-directory: ./environments/preprod
-        run: terraform plan -input=false
+        run: terraform plan -input=false -var-file="terraform.tfvars"
